@@ -1,5 +1,22 @@
-<p>child1 works!</p>
-asdasdasdasdasdasasdasd
-<div class="" *ngFor="let names of test">
-  {{names.title}}<br>
+
+<h1>Array Info from api</h1>
+<div class="search">
+    <p *ngFor="let names of info">
+      ID -> {{names.id}}; TITLE - > {{names.title}}
+    </p>
+</div>
+
+
+<div class="search center">
+  <h1>This searches into the info array</h1>
+  <input type="text" name="num" (keyup)="search($event)">
+  <h3>found : {{foundInArray}} </h3>
+</div>
+
+<br><br>
+
+<div class="search center">
+  <h1>This searches by service api</h1>
+  <input type="text" name="num1" (keyup)="searchByApi($event)">
+  <h3>found : {{foundInDB}} </h3>
 </div>

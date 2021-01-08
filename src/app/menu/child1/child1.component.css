@@ -1,0 +1,12 @@
+h1{color:rgba(203,80,80,1);}
+h3{color:rgba(9,129,227,1);}
+
+.search{
+  width:40%;
+  height:auto;
+  border:1px solid rgba(203,80,80,1);
+  border-radius:4px;
+  padding:0 2%;
+  float:left;
+}
+.center{text-align:center;margin:2.2% 1% 0 1%;}

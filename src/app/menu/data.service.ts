@@ -12,5 +12,4 @@ export class DataService {
   geteach(id:any){
     return this.http.get(this.link +"?id="+id);
   }
-
 }
